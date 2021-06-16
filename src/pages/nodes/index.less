@@ -1,0 +1,57 @@
+.topSelect {
+  margin-top: 20px;
+}
+.card,
+.chart {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card:hover {
+  border-color: transparent;
+  box-shadow: 0 2 * @vw 12 * @vw 0 rgba(0, 0, 0, 0.1);
+}
+.tableTitle {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 26px;
+}
+.nodeCount {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+.chartBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 0 0;
+  .chart {
+    display: flex;
+    flex: 0 0 300px;
+    flex-direction: column;
+    width: 300px;
+    min-width: 300px;
+    // height: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    .title {
+      color: #999;
+      font-size: 14px;
+    }
+    .content {
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+    }
+    .num {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: #333;
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+}

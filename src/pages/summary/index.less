@@ -1,0 +1,32 @@
+.summary {
+  width: 100%;
+  .title {
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+  }
+  .charts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    .chartBox {
+      flex: 1;
+      min-width: 300px;
+      height: 500px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      background-color: #fff;
+      border: 1px solid #f0f0f0;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .chartBox:hover {
+      border-color: transparent;
+      box-shadow: 0 2 * @vw 12 * @vw 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+}

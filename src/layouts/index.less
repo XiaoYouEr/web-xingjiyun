@@ -1,0 +1,31 @@
+.layout {
+  height: 100vh;
+  .logo {
+    color: #fff;
+    text-align: center;
+  }
+
+  .content {
+    margin: 6px 16px;
+    .children {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .layoutContent {
+    width: calc(100% - 100px);
+    height: 100%;
+    overflow-x: auto;
+    .pageHeader {
+      height: 64px;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+    }
+    main {
+      height: 100%;
+      overflow-y: auto;
+    }
+  }
+}
